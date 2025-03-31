@@ -1,12 +1,13 @@
-## Table to answer `Methods And Evaluation Criteria` Q1 & Q2
+## Response Table 1 to answer `Methods And Evaluation Criteria` Q1 & Q2
 |Methods| PCC (↑) | SCC (↑) | JSD (↓) | RMSE (↓) |
 | ------------- | ------------- | ------------- | ------------- | ------------- | 
 | sciLaMA-random (i) | 0.051±0.027 | 0.049±0.031 | 0.289±0.009 | 1.374±0.020 |
 | sciLaMA-shuffled (ii) | 0.056±0.036 | 0.043±0.037 | 0.288±0.009 | 1.366±0.027 |
+|sciLaMA-LLM (avg.)	|0.022±0.027|	0.217±0.028	|0.283±0.008|	1.242±0.022
 | MOFA+ | 0.173±0.025 | 0.192±0.023 | 0.466±0.036	| 1.282±0.019 |
 
 ---			
-## Table to answer `Methods And Evaluation Criteria` Q3
+## Response Table 2 to answer `Methods And Evaluation Criteria` Q3
 |Methods| ARI (↑) | NMI (↑) | ASW (↑) | cLISI (↑) |
 | ------------- | ------------- | ------------- | ------------- | ------------- | 
 |scVI	| 0.284	|0.291	|0.501	|0.501 |
@@ -23,6 +24,6 @@
 
 ---		
 			
-## Figure to answer `Experimental Designs Or Analyses`
+## Response Figure to answer `Experimental Designs Or Analyses`
 #### a zoom-in, side-by-side comparison of the imputation task (Figure 3c)
 ![alt text](https://github.com/anonymous-ICML2025/rebuttal_April1st/blob/main/Figures/Spatial_zoomin.png)
