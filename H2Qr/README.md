@@ -1,10 +1,10 @@
-## Figure to answer questions about interpretability
+## Response Figure 1 to answer questions about interpretability
 #### K (latent dimension) was set to 2 for sciLaMA on a sample of fetal liver atlas dataset
 ![alt text](https://github.com/anonymous-ICML2025/rebuttal_April1st/blob/main/Figures/Interpretability.png)
 ##### Captions: The visualization cell embedding (middle-left, dots are cells, colored by cell type annotations) and contexutal gene embedding (middle-right, dots are genes), both are 2D (latent node number = 2). The cell embedding visualizations on the top and bottom are colored by the expression level of genes that are sampled from different regions of contexutal gene embedding.
 
 ---
-## Table to answer questions about dataset scope (two more benchmarking datasets)
+## Response Tables 1-2 to answer questions about dataset scope (two more benchmarking datasets)
 #### mouse P0 cortical data
 |Methods| ARI (↑) | NMI (↑) | ASW (↑) | cLISI (↑) |
 | ------------- | ------------- | ------------- | ------------- | ------------- | 
@@ -37,9 +37,9 @@
 
 ---
 
-## Figure to answer questions about sensitivity to hyperparameters (alignment loss weight γ)
+## Response Figure 2 to answer questions about sensitivity to hyperparameters (alignment loss weight γ)
 ![alt text](https://github.com/anonymous-ICML2025/rebuttal_April1st/blob/main/Figures/Sensitivity_gamma.png)
-### corresponding table
+### corresponding Response Table 3
 |gamma|	ARI_mean|	ARI_std	|NMI_mean|	NMI_std|	ASW_mean	|ASW_std	|cLISI_mean|	cLISI_std|
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
 |`0`|	0.464 |0.371	|0.513	|0.390	|0.589	|0.087	|0.881	|0.170|
@@ -53,9 +53,9 @@
 
 ---
 
-## Figure to answer questions about sensitivity to hyperparameters (latent dimensionality K)
+## Response Figure 3 to answer questions about sensitivity to hyperparameters (latent dimensionality K)
 ![alt text](https://github.com/anonymous-ICML2025/rebuttal_April1st/blob/main/Figures/Sensitivity_K.png)
-### corresponding table
+### corresponding Response Table 4
 |K (latent dim)|	ARI_mean|	ARI_std	|NMI_mean|	NMI_std|	ASW_mean	|ASW_std	|cLISI_mean|	cLISI_std|
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
 |`10`|	0.651|	0.110|	0.756|	0.042|	0.654|	0.005|	0.991|	0.002 |
@@ -71,7 +71,7 @@
 
 ---
 
-## Table to quantitative measure of gene trajectory in addition to visualization and cluster-level metrics
+## Response Table 5 to quantitative measure of gene trajectory in addition to visualization and cluster-level metrics
 | |Raw external gene embedding	| Gene embedding before alignment	| Gene embedding after alignment |
 | ------------- | ------------- | ------------- | ------------- | 
 | Curvature-Based Smoothness Score	| 1.06 | 0.39	| 0.17 |
