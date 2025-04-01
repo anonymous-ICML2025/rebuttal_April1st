@@ -1,7 +1,7 @@
 ## Response Figure 1 to answer questions about interpretability
-#### K (latent dimension) was set to 2 for sciLaMA on a sample of fetal liver atlas dataset
+#### visualization of 2 sciLaMA latent dimensions on a sample fetal liver atlas dataset
 ![alt text](https://github.com/anonymous-ICML2025/rebuttal_April1st/blob/main/Figures/Interpretability.png)
-##### Captions: The visualization cell embedding (middle-left, dots are cells, colored by cell type annotations) and contexutal gene embedding (middle-right, dots are genes), both are 2D (latent node number = 2). The cell embedding visualizations on the top and bottom are colored by the expression level of genes that are sampled from different regions of contexutal gene embedding.
+##### Captions: The visualization cell embedding (middle-left, dots are cells, colored by cell type annotations) and contexutal gene embedding (middle-right, dots are genes), where each dimension is corresponding. The cell embedding visualizations on the top and bottom are colored by the expression level of genes that are sampled from different 2D regions of contexutal gene embedding.
 
 ---
 ## Response Tables 1-2 to answer questions about dataset scope (two more benchmarking datasets)
